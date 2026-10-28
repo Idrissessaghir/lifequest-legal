@@ -1,8 +1,8 @@
 ---
-title: Support LifeQuest
+title: Support GROOW
 ---
 
-# Support LifeQuest
+# Support GROOW
 
 ## Nous contacter
 
@@ -13,7 +13,7 @@ iPhone, la version d'iOS et ce que tu faisais au moment du souci.
 **N'envoie pas ta sauvegarde `.lifequest`** sauf si on te le demande : elle
 contient des informations personnelles et n'est pas chiffrée.
 
-LifeQuest est développée par une seule personne : la réponse peut prendre
+GROOW est développée par une seule personne : la réponse peut prendre
 quelques jours.
 
 ## Questions fréquentes
@@ -41,7 +41,7 @@ confiance.
 - **Plus tard** : onglet **Personnage** > **Notifications, santé, nutrition,
   sauvegarde** > **Sauvegarde** > **Restaurer une sauvegarde**.
 
-LifeQuest t'affiche un aperçu avant de remplacer quoi que ce soit, et crée
+GROOW t'affiche un aperçu avant de remplacer quoi que ce soit, et crée
 une sauvegarde de sécurité des données actuelles.
 
 Les données d'Apple Santé ne sont jamais dans les sauvegardes : après une
@@ -53,16 +53,16 @@ restauration sur un nouvel iPhone, reconnecte Apple Santé dans l'app.
   sauvegarde** > **Apple Santé** > **Connecter Apple Santé**, puis choisis
   les données à partager dans la fenêtre d'iOS.
 - **Modifier ou retirer** : dans l'app **Réglages** de l'iPhone > **Santé** >
-  **Accès aux données et appareils** > **LifeQuest**. Si l'app affiche le
+  **Accès aux données et appareils** > **GROOW**. Si l'app affiche le
   bouton « Gérer l'accès Apple Santé dans les réglages iOS », il t'y emmène.
 
-LifeQuest lit seulement tes entraînements et leur fréquence cardiaque. Elle
+GROOW lit seulement tes entraînements et leur fréquence cardiaque. Elle
 n'écrit rien dans Apple Santé.
 
 ### Comment effacer mes données ?
 
 - **Dans l'app** : onglet **Personnage** > **Notifications, santé, nutrition,
-  sauvegarde** > **Sauvegarde** > **Effacer toutes mes données LifeQuest**,
+  sauvegarde** > **Sauvegarde** > **Effacer toutes mes données GROOW**,
   puis confirme deux fois. Une sauvegarde de sécurité est créée juste avant,
   et les sauvegardes déjà présentes sur l'iPhone sont gardées.
 - **Pour tout supprimer, sauvegardes comprises** : supprime l'app (appui long
@@ -79,11 +79,11 @@ Exporte régulièrement une sauvegarde dans Fichiers.
 
 Pour signaler un bug ou donner ton avis :
 
-- **Avec une capture d'écran** : dans LifeQuest, fais une capture d'écran,
+- **Avec une capture d'écran** : dans GROOW, fais une capture d'écran,
   touche la miniature qui apparaît en bas, puis le bouton de partage et
-  choisis l'envoi d'un **commentaire bêta** à LifeQuest. Ajoute un petit texte
+  choisis l'envoi d'un **commentaire bêta** à GROOW. Ajoute un petit texte
   pour expliquer ce qui se passe.
-- **Depuis l'app TestFlight** : ouvre TestFlight > **LifeQuest** >
+- **Depuis l'app TestFlight** : ouvre TestFlight > **GROOW** >
   **Envoyer un commentaire bêta**.
 - **Après un plantage** : si iOS te propose d'envoyer un rapport, accepte,
   avec un mot sur ce que tu faisais.
@@ -95,5 +95,5 @@ Tu peux aussi écrire à idriss.essaghir@gmail.com.
 
 ### Quelle version ai-je ?
 
-Ouvre l'app **TestFlight** > **LifeQuest** : la version et le numéro de build
+Ouvre l'app **TestFlight** > **GROOW** : la version et le numéro de build
 sont affichés. Indique-les quand tu signales un bug.
