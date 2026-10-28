@@ -135,22 +135,32 @@ distance, allure ou vitesse, fréquence cardiaque, et le parcours s'il figure
 dans le fichier FIT). GROOW ne reçoit **pas** tes données de santé Garmin
 (sommeil, stress, poids…) ni ton historique d'avant la connexion.
 
-**Où vont ces données.** Garmin envoie ces séances à un serveur GROOW,
-hébergé par **Supabase dans l'Union européenne (Francfort, Allemagne)**.
-Supabase est le seul sous-traitant. Les données y sont chiffrées au repos et
-l'accès au serveur est restreint. L'app récupère ensuite tes séances depuis
+**Où vont ces données.** Garmin envoie ces séances à un serveur GROOW.
+Le seul prestataire est **Supabase**, qui héberge le serveur **dans l'Union
+européenne (Francfort, Allemagne)** et s'appuie sur ses propres sous-traitants
+(hébergement Amazon Web Services à Francfort), listés sur son site. Les
+données y sont chiffrées au repos. L'app récupère ensuite tes séances depuis
 ce serveur. Garmin traite aussi tes données selon sa propre politique de
 confidentialité.
 
-**Combien de temps.** Une copie de chaque séance est gardée sur le serveur
-**tant que ton compte GROOW existe**. Elle sert de sauvegarde, car Garmin ne
-renvoie jamais les séances passées.
+**Qui peut y accéder.** Seul le responsable de l'app (moi) peut accéder au
+serveur, uniquement pour le faire fonctionner et l'entretenir. Je ne m'en
+sers jamais pour lire tes séances par curiosité ni pour les exploiter.
+
+**Base légale : ton consentement.** Ces séances peuvent contenir des données
+de santé (fréquence cardiaque) et de localisation (parcours GPS). Elles ne
+sont traitées qu'avec ton **consentement explicite**, que tu donnes en
+reliant Garmin. Tu peux le retirer à tout moment en déliant Garmin : ce
+retrait efface tes séances du serveur.
+
+**Combien de temps.** Une copie de chaque séance (résumé et fichier FIT) est
+gardée sur le serveur **tant que ta connexion Garmin reste active**. Elle
+sert de sauvegarde, car Garmin ne renvoie jamais les séances passées.
 
 **Suppression.** Tout ce qui concerne ton compte Garmin est effacé du
 serveur :
 
-- quand ton compte GROOW est supprimé ;
-- quand tu délies Garmin, depuis l'app ou depuis Garmin Connect ;
+- dès que tu délies Garmin, depuis l'app ou depuis Garmin Connect ;
 - quand Garmin signale que la connexion a été coupée.
 
 Tu peux aussi demander à accéder à ces données ou à les effacer en écrivant
@@ -247,8 +257,8 @@ de GROOW présentes sur l'iPhone.
 Les sauvegardes que tu as partagées ailleurs (Fichiers, iCloud Drive,
 e-mail…) ne sont pas touchées : supprime-les toi-même si tu le souhaites.
 
-Si tu as relié Garmin, les séances gardées sur le serveur GROOW s'effacent
-comme expliqué à la section 6.
+Si tu as relié Garmin, les séances gardées sur le serveur GROOW sont
+effacées dès que tu délies Garmin (section 6).
 
 ## 11. TestFlight et App Store
 
@@ -285,7 +295,9 @@ c'est **toi** qui les contrôles directement :
 
 Pour tes séances Garmin gardées sur le serveur (section 6) et pour les
 informations qu'Apple me transmet (section 11), tu peux me demander d'y
-accéder ou de les supprimer en écrivant à idriss.essaghir@gmail.com.
+accéder ou de les supprimer en écrivant à idriss.essaghir@gmail.com. Pour
+tes séances Garmin, tu peux aussi retirer ton consentement à tout moment en
+déliant Garmin, ce qui les efface du serveur.
 
 Tu peux aussi adresser une réclamation à la CNIL (cnil.fr) ou à l'autorité de
 protection des données de ton pays.
