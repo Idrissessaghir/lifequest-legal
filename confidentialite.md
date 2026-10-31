@@ -4,7 +4,7 @@ title: Politique de confidentialité de GROOW
 
 # Politique de confidentialité de GROOW
 
-Version 1.1 de la politique · Mise à jour le 28 octobre 2026
+Version 1.2 de la politique · Mise à jour le 31 octobre 2026
 Concerne GROOW (anciennement LifeQuest) 1.0 pour iPhone (version de test TestFlight, puis App Store).
 
 ## En bref
@@ -137,8 +137,8 @@ dans le fichier FIT). GROOW ne reçoit **pas** tes données de santé Garmin
 
 **Où vont ces données.** Garmin envoie ces séances à un serveur GROOW.
 Le seul prestataire est **Supabase**, qui héberge le serveur **dans l'Union
-européenne (Francfort, Allemagne)** et s'appuie sur ses propres sous-traitants
-(hébergement Amazon Web Services à Francfort), listés sur son site. Les
+européenne (Stockholm, Suède)** et s'appuie sur ses propres sous-traitants
+(hébergement Amazon Web Services à Stockholm), listés sur son site. Les
 données y sont chiffrées au repos. L'app récupère ensuite tes séances depuis
 ce serveur. Garmin traite aussi tes données selon sa propre politique de
 confidentialité.
@@ -319,4 +319,4 @@ Chaque nouvelle version de cette politique porte un numéro et une date, en
 haut de cette page. Un changement important sera aussi annoncé dans les
 notes de version de l'app.
 
-Version 1.1 · 28 octobre 2026
+Version 1.2 · 31 octobre 2026
