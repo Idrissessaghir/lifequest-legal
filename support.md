@@ -6,7 +6,7 @@ title: Support GROOW
 
 ## Nous contacter
 
-Une question, un problème, une idée ? Écris à **idriss.essaghir@gmail.com**.
+Une question, un problème, une idée ? Écris à **contact@groow.win**.
 
 Pour aider à comprendre le problème, indique si possible le modèle de ton
 iPhone, la version d'iOS et ce que tu faisais au moment du souci.
@@ -15,6 +15,13 @@ contient des informations personnelles et n'est pas chiffrée.
 
 GROOW est développée par une seule personne : la réponse peut prendre
 quelques jours.
+
+Pour **signaler un abus** (par exemple un comportement ou un contenu
+choquant), écris à la même adresse avec l'objet « Signalement ».
+
+Les règles d'utilisation de GROOW sont dans les
+[conditions d'utilisation](conditions.md), et la façon dont tes données sont
+traitées dans la [politique de confidentialité](confidentialite.md).
 
 ## Questions fréquentes
 
@@ -91,7 +98,7 @@ Pour signaler un bug ou donner ton avis :
 Vérifie que ta capture ne montre pas d'information que tu ne veux pas
 partager.
 
-Tu peux aussi écrire à idriss.essaghir@gmail.com.
+Tu peux aussi écrire à contact@groow.win.
 
 ### Quelle version ai-je ?
 
