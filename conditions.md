@@ -12,7 +12,7 @@ GROOW est une app iPhone développée par un développeur individuel,
 **Idriss Essaghir**, contact : **contact@groow.win**.
 
 Ces conditions fixent les règles d'utilisation de GROOW. En utilisant l'app,
-tu les acceptes. Les fonctions en ligne (compte GROOW, montre reliée)
+tu les acceptes. Les fonctions en ligne (compte GROOW, amis, montre reliée)
 te demandent de les accepter **explicitement** avant de les activer.
 
 La façon dont GROOW traite tes données est expliquée dans la
@@ -34,18 +34,40 @@ simples (ce n'est pas une intelligence artificielle).
 
 ## 3. Âge
 
-Pour créer un compte GROOW (par exemple pour relier une montre), tu dois
-avoir **15 ans ou plus**. GROOW n'est pas conçue pour les enfants de moins
+Pour créer un compte GROOW (pour rejoindre les amis ou relier une montre),
+tu dois avoir **15 ans ou plus**. GROOW n'est pas conçue pour les enfants de moins
 de 13 ans.
 
 ## 4. Ton compte GROOW
 
-Certaines fonctions demandent un compte GROOW, créé avec « Se connecter avec
-Apple ». Tu es responsable de ce qui se passe avec ton compte. Tu peux le
-**supprimer à tout moment** depuis l'app : tout ce que le serveur garde sur
-toi est alors effacé (détails dans la politique de confidentialité).
+Les amis et la montre reliée demandent un compte GROOW, créé avec « Se
+connecter avec Apple ». Tu es responsable de ce qui se passe avec ton compte.
+Tu peux le **supprimer à tout moment** depuis l'app (Amis et vie privée) :
+tout ce que le serveur garde sur toi est alors effacé, sauf les signalements,
+gardés 90 jours au plus sans lien avec ton compte (détails dans la politique
+de confidentialité).
 
-## 5. Services d'autres entreprises (Apple Santé, montres)
+## 5. Les amis
+
+- **Facultatif, entre personnes qui se connaissent** : on ne devient amis
+  qu'avec un code d'invitation que l'un donne à l'autre. Pas de recherche,
+  pas de profil public.
+- **Ce que tes amis voient** : ta carte (prénom, héros, niveau, série,
+  semaine, dernière séance, devise), et seulement si tu les choisis tes
+  objectifs et tes activités. Tu peux tout mettre en pause (mode discret),
+  retirer un ami ou le bloquer à tout moment.
+- **Ce que tu montres est sous ta responsabilité** : ton prénom, ta devise,
+  les noms de tes objectifs et les titres de tes séances ensemble doivent
+  respecter les règles de la section 8. GROOW filtre certains mots, mais ne
+  peut pas tout vérifier.
+- **Une séance ensemble est un rendez-vous entre amis** : GROOW
+  n'organise rien, ne vérifie pas qui vient et n'est pas responsable de ce
+  qui se passe pendant la séance. Choisis des personnes et des lieux en qui
+  tu as confiance.
+- **Bravos et séances ensemble ne donnent pas d'XP** et ne valident jamais
+  une quête à ta place.
+
+## 6. Services d'autres entreprises (Apple Santé, montres)
 
 GROOW peut lire des données venant d'autres services, si tu le choisis :
 Apple Santé, et ta montre (Garmin pour l'instant).
@@ -60,7 +82,7 @@ Apple Santé, et ta montre (Garmin pour l'instant).
   que GROOW puisse l'empêcher. Tes séances déjà arrivées sur ton iPhone
   restent.
 
-## 6. Pas de conseil médical, sport avec prudence
+## 7. Pas de conseil médical, sport avec prudence
 
 GROOW est un jeu de motivation, **pas un dispositif médical**. Rien dans
 l'app (quêtes, plans d'entraînement, mots d'Alfred, chiffres de santé) n'est
@@ -71,12 +93,15 @@ d'un professionnel de santé si tu as le moindre doute. Écoute ton corps :
 arrête en cas de douleur, malaise ou essoufflement inhabituel. Tu pratiques
 ton sport sous ta propre responsabilité.
 
-## 7. Ce que tu t'engages à ne pas faire
+## 8. Ce que tu t'engages à ne pas faire
 
 - utiliser GROOW contre la loi ou contre les droits de quelqu'un ;
 - harceler, menacer, insulter ou tromper d'autres utilisateurs, ou publier
-  un contenu choquant, haineux ou sexuel (par exemple dans ton nom ou ton
-  portrait visibles par d'autres) ;
+  un contenu choquant, haineux ou sexuel (par exemple dans ton prénom, ta
+  devise, le nom d'un objectif ou le titre d'une séance ensemble visibles
+  par tes amis) ;
+- utiliser les amis pour envoyer de la publicité ou des messages en masse,
+  ou pour ajouter des personnes qui ne te connaissent pas ;
 - te faire passer pour quelqu'un d'autre, ou relier une montre ou un compte
   qui n'est pas le tien ;
 - envoyer de fausses données au serveur, tenter d'y accéder sans
@@ -86,21 +111,28 @@ ton sport sous ta propre responsabilité.
 - revendre ou détourner les données d'un service relié (par exemple
   Garmin) hors de l'usage prévu dans GROOW.
 
-## 8. Signaler un abus, blocage et suspension
+## 9. Signaler un abus, blocage et suspension
 
-- **Signaler** : écris à **contact@groow.win** (objet « Signalement »),
-  ou utilise « Signaler » dans l'app quand il est proposé. Décris ce qui
-  s'est passé ; n'envoie pas de sauvegarde `.lifequest`.
-- **Bloquer une personne** : quand l'app te montre d'autres utilisateurs, tu
-  peux en bloquer un ; il ne pourra plus te voir ni te contacter dans GROOW.
+- **Signaler dans l'app** : sur le profil d'un ami, « … » › **Signaler**
+  (prénom, devise ou objectif choquant ; personne inconnue ; autre). La
+  personne n'est pas prévenue. Les signalements sont regardés sous 48 h.
+- **Signaler par e-mail** : écris à **contact@groow.win** (objet
+  « Signalement ») et décris ce qui s'est passé ; n'envoie pas de
+  sauvegarde `.lifequest`.
+- **Bloquer une personne** : sur son profil, « … » › **Bloquer**. Vous ne
+  vous voyez plus, dans les deux sens ; elle ne peut plus t'envoyer de
+  bravo, de séance ensemble ni de code, et n'est pas prévenue. Tu peux la
+  débloquer dans Amis et vie privée.
+- **Retirer un ami** : il n'est pas prévenu ; il faudra un nouveau code pour
+  redevenir amis.
 - **Ce que GROOW peut faire** : en cas de manquement à ces conditions, ou si
   un service relié le demande, GROOW peut, selon la gravité, retirer un
   contenu, **suspendre ou bloquer** ton accès aux fonctions en ligne (compte,
-  montre reliée), ou supprimer ton compte. Sauf urgence ou obligation
+  amis, montre reliée), ou supprimer ton compte. Sauf urgence ou obligation
   légale, tu en es prévenu et tu peux t'expliquer à **contact@groow.win**.
   Les données de ton iPhone ne sont pas touchées.
 
-## 9. Responsabilité
+## 10. Responsabilité
 
 Dans la mesure permise par la loi :
 
@@ -118,21 +150,21 @@ Dans la mesure permise par la loi :
   intentionnelle, ni aux dommages corporels dus à une faute de GROOW, ni à
   tes droits de consommateur que la loi rend impossibles à écarter.
 
-## 10. Propriété
+## 11. Propriété
 
 L'app GROOW, son nom, son univers et ses textes appartiennent à
 Idriss Essaghir. Tes données t'appartiennent : tu peux les exporter
 (sauvegarde `.lifequest`) et les effacer à tout moment. Les marques des
 services reliés (Apple, Garmin…) appartiennent à leurs propriétaires.
 
-## 11. Changements de ces conditions
+## 12. Changements de ces conditions
 
 Chaque version porte un numéro et une date. Un changement important est
 annoncé dans l'app ou dans les notes de version **avant** de s'appliquer ;
 si tu n'es pas d'accord, tu peux supprimer ton compte et arrêter d'utiliser
 GROOW.
 
-## 12. Droit applicable et litiges
+## 13. Droit applicable et litiges
 
 Ces conditions sont soumises au **droit français**. Si tu es un
 consommateur et que tu habites dans un autre pays de l'Union européenne, tu
@@ -143,6 +175,6 @@ En cas de désaccord, écris d'abord à **contact@groow.win** pour trouver une
 solution à l'amiable. Si aucune solution n'est trouvée, tu peux saisir le
 tribunal compétent selon les règles qui protègent les consommateurs.
 
-## 13. Contact
+## 14. Contact
 
 **contact@groow.win**
