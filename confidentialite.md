@@ -4,13 +4,13 @@ title: Politique de confidentialité de GROOW
 
 # Politique de confidentialité de GROOW
 
-Version 1.2 de la politique · Mise à jour le 31 octobre 2026
+Version 1.3 de la politique · Mise à jour le 27 novembre 2026
 Concerne GROOW (anciennement LifeQuest) 1.0 pour iPhone (version de test TestFlight, puis App Store).
 
 ## En bref
 
-- Tes données restent sur ton iPhone. GROOW ne m'envoie rien, sauf si tu relies volontairement ton compte Garmin (fonction facultative, bientôt disponible : voir section 6).
-- Pas de compte à créer pour utiliser l'app, pas de publicité, pas de mesure d'audience, pas de pistage.
+- Tes données restent sur ton iPhone. GROOW ne m'envoie rien, sauf si tu relies volontairement ta montre (fonction facultative, avec un compte GROOW : voir section 6).
+- Pas de compte à créer pour utiliser l'app (un compte est demandé seulement pour relier une montre), pas de publicité, pas de mesure d'audience, pas de pistage.
 - Apple Santé : GROOW lit seulement tes entraînements et leur fréquence cardiaque. Elle n'écrit rien et n'envoie rien.
 - Une sauvegarde `.lifequest` ne quitte ton iPhone que si tu la partages toi-même. Elle n'est pas chiffrée.
 - Supprimer l'app efface toutes les données de GROOW de ton iPhone.
@@ -19,7 +19,7 @@ Concerne GROOW (anciennement LifeQuest) 1.0 pour iPhone (version de test TestFli
 
 GROOW est développée par un développeur individuel : Idriss Essaghir.
 
-Pour toute question sur cette politique ou sur tes données : idriss.essaghir@gmail.com.
+Pour toute question sur cette politique ou sur tes données : contact@groow.win.
 
 ## 2. Ce que GROOW enregistre sur ton iPhone
 
@@ -39,7 +39,7 @@ Tout cela est enregistré **uniquement dans l'espace de GROOW sur ton
 iPhone** (le stockage local de l'app et son dossier de fichiers).
 
 GROOW ne me transmet aucune de ces données. Je n'y ai pas accès. Seule
-exception : tes séances Garmin, si tu relies toi-même ton compte Garmin
+exception : tes séances de montre, si tu relies toi-même ta montre
 (section 6).
 
 **Sauvegarde de l'iPhone par Apple.** Si la sauvegarde iCloud (ou la
@@ -51,9 +51,11 @@ par Apple selon tes réglages. Je n'y ai pas accès.
 
 Dans cette version, GROOW :
 
-- n'envoie tes données à **aucun service en ligne** (seule exception à venir :
-  la connexion Garmin, uniquement si tu l'actives, section 6) ;
-- ne te demande **pas de créer un compte** ni de mot de passe ;
+- n'envoie tes données à **aucun service en ligne**, sauf ce que tu actives
+  toi-même (montre reliée : section 6) ;
+- ne te demande **pas de créer un compte** ni de mot de passe (un compte
+  GROOW, créé avec « Se connecter avec Apple », est demandé seulement pour
+  relier une montre) ;
 - n'affiche **pas de publicité** ;
 - n'utilise **aucun outil de mesure d'audience**, de statistiques ou de
   rapport de plantage tiers ;
@@ -120,59 +122,145 @@ envoyé en ligne.
 Ces résumés FIT ne sont inclus dans tes sauvegardes que si tu coches
 « Inclure les résumés FIT importés » (désactivé par défaut).
 
-## 6. Connexion Garmin (bientôt disponible)
+## 6. Montres connectées (Garmin)
 
-Cette fonction n'est pas encore disponible. Elle sera **facultative** : GROOW
-fonctionne sans elle.
+Cette fonction est **facultative** : GROOW marche entièrement sans elle, avec
+Apple Santé. Pour l'instant, seule **Garmin** peut être reliée.
 
-**Rien n'est relié sans toi.** Ton compte Garmin n'est relié que si tu
-touches « Relier Garmin » dans l'app, puis acceptes sur la page de Garmin. Tu
-peux le délier à tout moment depuis l'app.
+### Rien n'est relié sans toi
 
-**Données concernées : uniquement tes activités**, c'est-à-dire les séances
-terminées après la connexion : leur résumé et leur fichier FIT (durée,
-distance, allure ou vitesse, fréquence cardiaque, et le parcours s'il figure
-dans le fichier FIT). GROOW ne reçoit **pas** tes données de santé Garmin
-(sommeil, stress, poids…) ni ton historique d'avant la connexion.
+Ta montre n'est reliée que si :
 
-**Où vont ces données.** Garmin envoie ces séances à un serveur GROOW.
-Le seul prestataire est **Supabase**, qui héberge le serveur **dans l'Union
-européenne (Stockholm, Suède)** et s'appuie sur ses propres sous-traitants
-(hébergement Amazon Web Services à Stockholm), listés sur son site. Les
-données y sont chiffrées au repos. L'app récupère ensuite tes séances depuis
-ce serveur. Garmin traite aussi tes données selon sa propre politique de
-confidentialité.
+1. tu es connecté à ton compte GROOW, créé avec « Se connecter avec Apple »
+   (il faut avoir **15 ans ou plus**) ;
+2. tu touches « Relier ma montre », lis l'écran d'accord et coches la case
+   « J'accepte » ;
+3. tu te connectes **sur la page de Garmin** et acceptes le partage. GROOW ne
+   voit jamais ton mot de passe Garmin.
 
-**Qui peut y accéder.** Seul le responsable de l'app (moi) peut accéder au
-serveur, uniquement pour le faire fonctionner et l'entretenir. Je ne m'en
-sers jamais pour lire tes séances par curiosité ni pour les exploiter.
+Si tu refuses à une de ces étapes, rien n'est relié et rien n'est envoyé.
 
-**Base légale : ton consentement.** Ces séances peuvent contenir des données
-de santé (fréquence cardiaque) et de localisation (parcours GPS). Elles ne
-sont traitées qu'avec ton **consentement explicite**, que tu donnes en
-reliant Garmin. Tu peux le retirer à tout moment en déliant Garmin : ce
-retrait efface tes séances du serveur.
+**Ton compte GROOW** ne contient ni ton nom ni ton adresse e-mail : le
+serveur garde seulement une **empreinte** de ton identifiant Apple (pas
+l'identifiant lui-même), un jeton d'Apple qui sert à couper le lien avec
+Apple quand tu supprimes ton compte, et la date et la version des accords
+que tu as donnés.
 
-**Combien de temps.** Une copie de chaque séance (résumé et fichier FIT) est
-gardée sur le serveur **tant que ta connexion Garmin reste active**. Elle
-sert de sauvegarde, car Garmin ne renvoie jamais les séances passées.
+### Ce que GROOW reçoit
 
-**Suppression.** Tout ce qui concerne ton compte Garmin est effacé du
-serveur :
+Uniquement tes **séances de sport terminées après la connexion** :
 
-- dès que tu délies Garmin, depuis l'app ou depuis Garmin Connect ;
-- quand Garmin signale que la connexion a été coupée.
+- leur **résumé** : sport, heure de début, durée, distance, fréquence
+  cardiaque, vitesse ou allure, puissance, cadence, dénivelé, modèle de la
+  montre ;
+- le **détail de la séance** : les tours et les courbes (fréquence
+  cardiaque, allure, puissance au fil de la séance).
 
-Tu peux aussi demander à accéder à ces données ou à les effacer en écrivant
-à idriss.essaghir@gmail.com.
+Le détail est tiré du fichier de la montre (fichier FIT), puis ce fichier
+est jeté : **GROOW ne garde pas le fichier lui-même**.
 
-**Ce que GROOW ne fait jamais avec ces données :**
+Pour faire le lien avec ton compte, le serveur garde aussi une **empreinte**
+de ton identifiant Garmin (pas l'identifiant lui-même) et les **clés de
+connexion** que Garmin donne à GROOW (chiffrées).
 
-- elle ne les **vend** pas, ne les **partage** avec personne et ne les
-  utilise **pas pour de la publicité** ;
-- elle ne les envoie à **aucun service d'intelligence artificielle** et ne
-  s'en sert pour entraîner aucune IA ;
-- elle ne pose **aucun diagnostic médical**.
+GROOW ne garde **jamais** :
+
+- ta **trace GPS**, ton point de départ ni ton **altitude point par point** :
+  ils sont retirés **avant tout stockage** (ton parcours révèle souvent ton
+  domicile) ;
+- le **nom** que tu donnes à tes séances (souvent un lieu) ;
+- tes autres données Garmin : sommeil, stress, poids, santé du quotidien ;
+- tes séances d'avant la connexion.
+
+Aucune donnée d'**Apple Santé** n'est envoyée au serveur pour cette
+fonction : elles restent sur ton iPhone.
+
+### Pourquoi (deux raisons, et seulement celles-là)
+
+1. **T'afficher tes séances dans GROOW** et te proposer de les associer à une
+   quête. Une séance ne valide jamais une quête toute seule : c'est toi qui
+   décides.
+2. **En garder une copie de secours** : Garmin ne renvoie jamais une séance
+   déjà envoyée. Si tu changes d'iPhone ou réinstalles GROOW, cette copie
+   permet de retrouver tes séances.
+
+### Ce que GROOW n'en fait jamais
+
+- **Pas de vente**, pas de partage avec d'autres entreprises, **pas de
+  publicité**, pas de mesure d'audience.
+- **Pas d'intelligence artificielle.** Alfred, le coach de GROOW, n'est pas
+  une IA : il suit des règles simples, sur ton iPhone. Tes séances ne sont
+  envoyées à aucun service d'IA et ne servent à entraîner, tester ou améliorer
+  aucune IA. Si une fonction d'IA arrive un jour, elle sera **facultative**,
+  expliquée ici avant sa mise en service, et te demandera **un accord à part**,
+  que tu pourras retirer.
+- **Pas d'usage médical.** GROOW ne pose aucun diagnostic et ne remplace pas
+  un médecin.
+- Pas de décision automatique qui te concerne (crédit, assurance, emploi…).
+
+### Données de santé : ton accord explicite
+
+Une séance avec fréquence cardiaque est une **donnée de santé**, une catégorie
+de données que la loi (RGPD) protège particulièrement. GROOW ne la traite
+qu'avec ton **consentement explicite**, donné en cochant la case avant de
+relier ta montre.
+
+Tu peux **retirer ton accord à tout moment**, aussi simplement que tu l'as
+donné : « Déconnecter et effacer » dans l'écran « Relier ma montre » de
+l'app. Le retrait ne remet pas en cause ce qui a été fait avant.
+
+### Où sont les données, et qui les traite
+
+Sur un serveur GROOW hébergé par **Supabase**, dans l'**Union européenne
+(Stockholm, Suède)**. Supabase est le **seul prestataire** de GROOW pour ces
+données. Il s'appuie sur ses propres sous-traitants, listés sur son site,
+dont **Amazon Web Services**, qui héberge le serveur à Stockholm.
+
+- Les données sont **chiffrées** sur le serveur ; tes séances et les clés de
+  connexion Garmin sont en plus chiffrées par GROOW elle-même, avant d'être
+  enregistrées.
+- Les échanges entre Garmin, le serveur et ton iPhone sont chiffrés (HTTPS).
+- Seul le responsable de GROOW (moi) peut accéder au serveur, et seulement
+  pour le faire fonctionner et l'entretenir.
+
+Garmin traite aussi tes données, de son côté, selon sa propre politique de
+confidentialité. GROOW n'est pas une app de Garmin.
+
+### Combien de temps
+
+Tes séances sont gardées **tant que ta montre reste reliée à ton compte
+GROOW**. Elles sont effacées du serveur :
+
+- dès que tu touches **« Déconnecter et effacer »** dans l'app ;
+- dès que tu **supprimes ton compte GROOW** ;
+- dès que Garmin nous signale que tu as retiré l'accès à GROOW (par exemple
+  depuis Garmin Connect) ;
+- si l'app n'a relevé **aucune séance pendant 24 mois**.
+
+Une copie peut subsister quelques jours dans les **sauvegardes techniques**
+du serveur, puis disparaît à leur renouvellement (au plus **7 jours**).
+
+Les séances déjà arrivées sur ton iPhone **restent sur ton iPhone** : tu les
+effaces depuis l'app, comme tes autres activités.
+
+### Tes droits
+
+Pour tes données gardées sur le serveur, tu peux à tout moment :
+
+- **y accéder** et **en obtenir une copie** (export) ;
+- les **faire corriger** ou les **effacer** ;
+- **retirer ton consentement** (« Déconnecter et effacer »).
+
+Pour l'accès, la correction et l'export, écris à **contact@groow.win** :
+réponse sous un mois au plus.
+
+Tu peux aussi adresser une réclamation à la **CNIL** (cnil.fr) ou à
+l'autorité de protection des données de ton pays.
+
+### En cas de problème de sécurité
+
+Si une fuite touchait tes données, GROOW préviendrait l'autorité compétente
+(la CNIL) et, si le risque est élevé pour toi, te préviendrait directement.
 
 ## 7. Photos et appareil photo
 
@@ -257,8 +345,10 @@ de GROOW présentes sur l'iPhone.
 Les sauvegardes que tu as partagées ailleurs (Fichiers, iCloud Drive,
 e-mail…) ne sont pas touchées : supprime-les toi-même si tu le souhaites.
 
-Si tu as relié Garmin, les séances gardées sur le serveur GROOW sont
-effacées dès que tu délies Garmin (section 6).
+Si tu as relié une montre, tes séances gardées sur le serveur sont effacées
+avec « Déconnecter et effacer » ou en supprimant ton compte GROOW
+(section 6). Supprimer l'app ne supprime **pas** ton compte : pense à le
+supprimer d'abord.
 
 ## 11. TestFlight et App Store
 
@@ -283,6 +373,9 @@ améliorer l'app.
 GROOW n'est pas conçue pour les enfants de moins de 13 ans. Si tu es
 mineur, utilise-la avec l'accord d'un parent.
 
+Pour créer un compte GROOW (et donc relier une montre), il faut avoir
+**15 ans ou plus**.
+
 ## 13. Tes droits
 
 Pour les données restées sur ton iPhone, qui ne me sont pas transmises,
@@ -293,11 +386,12 @@ c'est **toi** qui les contrôles directement :
 - **les effacer** : avec « Effacer toutes mes données GROOW » ou en
   supprimant l'app (section 10).
 
-Pour tes séances Garmin gardées sur le serveur (section 6) et pour les
+Pour tes séances de montre gardées sur le serveur (section 6) et pour les
 informations qu'Apple me transmet (section 11), tu peux me demander d'y
-accéder ou de les supprimer en écrivant à idriss.essaghir@gmail.com. Pour
-tes séances Garmin, tu peux aussi retirer ton consentement à tout moment en
-déliant Garmin, ce qui les efface du serveur.
+accéder, d'en obtenir une copie, de les corriger ou de les supprimer en
+écrivant à contact@groow.win. Pour tes séances de montre, tu peux
+aussi retirer ton consentement à tout moment avec « Déconnecter et
+effacer », ce qui les efface du serveur.
 
 Tu peux aussi adresser une réclamation à la CNIL (cnil.fr) ou à l'autorité de
 protection des données de ton pays.
@@ -305,7 +399,7 @@ protection des données de ton pays.
 ## 14. Fonctions futures
 
 Certaines fonctions ne sont **pas incluses dans cette version** : connexion
-Garmin (décrite dès maintenant à la section 6), connexion WHOOP, analyse des
+WHOOP, analyse des
 repas par intelligence artificielle, photos de repas, synchronisation iCloud
 des données de l'app.
 
@@ -319,4 +413,7 @@ Chaque nouvelle version de cette politique porte un numéro et une date, en
 haut de cette page. Un changement important sera aussi annoncé dans les
 notes de version de l'app.
 
-Version 1.2 · 31 octobre 2026
+Les conditions d'utilisation de GROOW sont sur la page
+[Conditions d'utilisation](conditions.md).
+
+Version 1.3 · 27 novembre 2026
